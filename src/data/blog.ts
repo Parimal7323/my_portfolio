@@ -1,39 +1,34 @@
-export interface BlogPost {
-  slug: string
-  title: string
-  description: string
-  date: string
-  readTime: string
-  tags: string[]
-  content: string
-}
+import { BlogPost } from '@/types'
 
 export const posts: BlogPost[] = [
   {
-    slug: 'building-modern-web-applications-with-nextjs',
+    id: '1',
     title: 'Building Modern Web Applications with Next.js',
-    description: 'Learn how to build fast, scalable, and SEO-friendly web applications using Next.js 14 and its latest features.',
-    date: '2024-03-15',
-    readTime: '5 min read',
-    tags: ['Next.js', 'React', 'Web Development'],
-    content: 'Next.js has revolutionized the way we build web applications...'
+    slug: 'building-modern-web-applications-with-nextjs',
+    excerpt: 'Learn how to build fast, scalable, and SEO-friendly web applications using Next.js 14 and its latest features.',
+    content: 'Next.js has revolutionized the way we build web applications...',
+    publishedAt: new Date('2024-03-15'),
+    readTime: 5,
+    tags: ['Next.js', 'React', 'Web Development']
   },
   {
-    slug: 'mastering-typescript-for-better-development',
+    id: '2',
     title: 'Mastering TypeScript for Better Development',
-    description: 'A comprehensive guide to TypeScript features that will help you write more maintainable and type-safe code.',
-    date: '2024-03-10',
-    readTime: '7 min read',
-    tags: ['TypeScript', 'JavaScript', 'Programming'],
-    content: 'TypeScript brings static typing to JavaScript...'
+    slug: 'mastering-typescript-for-better-development',
+    excerpt: 'A comprehensive guide to TypeScript features that will help you write more maintainable and type-safe code.',
+    content: 'TypeScript brings static typing to JavaScript...',
+    publishedAt: new Date('2024-03-10'),
+    readTime: 7,
+    tags: ['TypeScript', 'JavaScript', 'Programming']
   },
   {
-    slug: 'future-of-ai-in-software-development',
+    id: '3',
     title: 'The Future of AI in Software Development',
-    description: 'Exploring how artificial intelligence is transforming the way we write, test, and maintain software.',
-    date: '2024-03-05',
-    readTime: '6 min read',
-    tags: ['AI', 'Machine Learning', 'Software Development'],
-    content: 'Artificial Intelligence is reshaping the software development landscape...'
+    slug: 'future-of-ai-in-software-development',
+    excerpt: 'Exploring how artificial intelligence is transforming the way we write, test, and maintain software.',
+    content: 'Artificial Intelligence is reshaping the software development landscape...',
+    publishedAt: new Date('2024-03-05'),
+    readTime: 6,
+    tags: ['AI', 'Machine Learning', 'Software Development']
   }
 ] 
