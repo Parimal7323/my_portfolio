@@ -1,40 +1,21 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { posts } from '@/data/blog'
+import { posts } from '../../data/blog'
 import { formatDate } from '@/lib/utils'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { BlogCard } from '@/components/ui/BlogCard'
-
-interface BlogPost {
-  id: string
-  slug: string
-  title: string
-  excerpt: string
-  publishedAt: string
-  readTime: string
-  tags: string[]
-}
+import type { BlogPost } from '@/types'
 
 export default function BlogSection() {
-  const [posts, setPosts] = useState<BlogPost[]>([])
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const response = await fetch('/api/blog')
-        const data = await response.json()
-        setPosts(data)
-      } catch (error) {
-        console.error('Error fetching blog posts:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchPosts()
+    // For now, we'll use the static posts data
+    setBlogPosts(posts)
+    setLoading(false)
   }, [])
 
   if (loading) {
@@ -75,7 +56,7 @@ export default function BlogSection() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post, index) => (
+            {blogPosts.map((post, index) => (
               <motion.div
                 key={post.id}
                 initial={{ opacity: 0, y: 20 }}
