@@ -5,6 +5,7 @@ export interface BlogPost {
   date: string
   readTime: string
   tags: string[]
+  content: string
 }
 
 export const posts: BlogPost[] = [
@@ -14,7 +15,8 @@ export const posts: BlogPost[] = [
     description: 'Learn how to build fast, scalable, and SEO-friendly web applications using Next.js 14 and its latest features.',
     date: '2024-03-15',
     readTime: '5 min read',
-    tags: ['Next.js', 'React', 'Web Development']
+    tags: ['Next.js', 'React', 'Web Development'],
+    content: 'Next.js has revolutionized the way we build web applications...'
   },
   {
     slug: 'mastering-typescript-for-better-development',
@@ -22,7 +24,8 @@ export const posts: BlogPost[] = [
     description: 'A comprehensive guide to TypeScript features that will help you write more maintainable and type-safe code.',
     date: '2024-03-10',
     readTime: '7 min read',
-    tags: ['TypeScript', 'JavaScript', 'Programming']
+    tags: ['TypeScript', 'JavaScript', 'Programming'],
+    content: 'TypeScript brings static typing to JavaScript...'
   },
   {
     slug: 'future-of-ai-in-software-development',
@@ -30,6 +33,7 @@ export const posts: BlogPost[] = [
     description: 'Exploring how artificial intelligence is transforming the way we write, test, and maintain software.',
     date: '2024-03-05',
     readTime: '6 min read',
-    tags: ['AI', 'Machine Learning', 'Software Development']
+    tags: ['AI', 'Machine Learning', 'Software Development'],
+    content: 'Artificial Intelligence is reshaping the software development landscape...'
   }
 ] 
