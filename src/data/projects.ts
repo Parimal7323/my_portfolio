@@ -23,4 +23,18 @@ export const projects: Project[] = [
     featured: true,
     categories: ['ai']
   },
+  
+  {
+    id: '3',
+    title: 'EmpowerLex',
+    description: 'EmpowerLex is a cross-platform legal aid app that connects users with NGOs, offers personalized legal support via AI, and helps generate legal documents. Built using Flutter and FastAPI, it leverages LangChain and OpenAI for smart legal assistance.',
+    image: '/images/projects/empowerlex.jpg', // Update the image path if needed
+    tags: ['Flutter', 'FastAPI', 'LangChain', 'OpenAI', 'Render'],
+    liveUrl: 'https://empowerlex-web.vercel.app/', // Update if you have a custom domain
+    githubUrl: 'https://github.com/aryanmishra24/EmpowerLex',
+    featured: true,
+    categories: ['ai', 'fullstack', 'mobile']
+  }
+  
+
 ]
