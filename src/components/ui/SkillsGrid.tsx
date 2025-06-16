@@ -4,6 +4,7 @@ import { skills } from '@/data/skills'
 // Icon mapping for skills
 const iconMap: { [key: string]: string } = {
   react: 'R',
+  flutter: '🟦',
   next: 'N',
   ts: 'TS',
   tailwind: 'TW',

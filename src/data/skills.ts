@@ -15,6 +15,12 @@ export const skills: Skill[] = [
     category: 'frontend'
   },
   {
+    name: 'Flutter',
+    icon: 'flutter',
+    proficiency: 85,
+    category: 'frontend'
+  },
+  {
     name: 'TypeScript',
     icon: 'ts',
     proficiency: 80,
