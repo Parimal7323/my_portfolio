@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     id: '2',
     title: 'VeriFind',
-    description: 'A real-time fact-checking tool using NLP pipelines with 95% precision, result filtering, Redis caching, and live deployment.',
+    description: 'AI legal aid app using Flutter, FastAPI, LangChain & OpenAI; deployed live, serving 1,000+ users with 95% accurate legal guidance.',
     image: '/images/projects/verifind.jpg',
     tags: ['Python', 'Streamlit', 'scikit-learn', 'NLTK', 'NewsAPI', 'Redis'],
     liveUrl: 'https://verifind.onrender.com',
@@ -27,9 +27,9 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'EmpowerLex',
-    description: 'EmpowerLex is a cross-platform legal aid app that connects users with NGOs, offers personalized legal support via AI, and helps generate legal documents. Built using Flutter and FastAPI, it leverages LangChain and OpenAI for smart legal assistance.',
+    description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 1,000+ users across platforms.',
     image: '/images/projects/empowerlex.jpg', // Update the image path if needed
-    tags: ['Flutter', 'FastAPI', 'LangChain', 'OpenAI', 'Render'],
+    tags: ['Flutter', 'FastAPI', 'LangChain', 'gemini-api', 'Render'],
     liveUrl: 'https://empowerlex-web.vercel.app/', // Update if you have a custom domain
     githubUrl: 'https://github.com/aryanmishra24/EmpowerLex',
     featured: true,
