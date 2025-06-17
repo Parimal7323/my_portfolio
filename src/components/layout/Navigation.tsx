@@ -14,7 +14,7 @@ const navItems = [
   { href: '#contact', label: 'Contact' },
 ]
 
-const RESUME_URL = 'https://drive.google.com/file/d/1zgg_mpPV9_KzVRLeIVQX-4Uy-6pmZd-_/view?usp=drive_link'
+const RESUME_URL = 'https://drive.google.com/file/d/1qxQ31Yh-M3HePpmoiaZlm28ZFJRWvCof/view?usp=sharing'
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
