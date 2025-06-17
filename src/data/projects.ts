@@ -13,6 +13,17 @@ export const projects: Project[] = [
     categories: ['ai', 'fullstack']
   },
   {
+    id: '2',
+    title: 'EmpowerLex',
+    description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 1,000+ users across platforms.',
+    image: '/images/projects/empowerlex.jpg', // Update the image path if needed
+    tags: ['Flutter', 'FastAPI', 'LangChain', 'gemini-api', 'Render'],
+    liveUrl: 'https://empowerlex-web.vercel.app/', // Update if you have a custom domain
+    githubUrl: 'https://github.com/aryanmishra24/EmpowerLex',
+    featured: true,
+    categories: ['ai', 'fullstack', 'mobile']
+  },
+  {
     id: '3',
     title: 'VeriFind',
     description: 'AI legal aid app using Flutter, FastAPI, LangChain & OpenAI; deployed live, serving 1,000+ users with 95% accurate legal guidance.',
@@ -24,17 +35,6 @@ export const projects: Project[] = [
     categories: ['ai']
   },
   
-  {
-    id: '2',
-    title: 'EmpowerLex',
-    description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 1,000+ users across platforms.',
-    image: '/images/projects/empowerlex.jpg', // Update the image path if needed
-    tags: ['Flutter', 'FastAPI', 'LangChain', 'gemini-api', 'Render'],
-    liveUrl: 'https://empowerlex-web.vercel.app/', // Update if you have a custom domain
-    githubUrl: 'https://github.com/aryanmishra24/EmpowerLex',
-    featured: true,
-    categories: ['ai', 'fullstack', 'mobile']
-  }
   
 
 ]
