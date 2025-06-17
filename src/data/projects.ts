@@ -7,13 +7,13 @@ export const projects: Project[] = [
     description: 'A full-stack journaling platform used by 50+ users with AI-generated summaries, personalized insights, and mood analytics.',
     image: '/images/projects/ai-journal.jpg',
     tags: ['FastAPI', 'React', 'PostgreSQL', 'Gemini API', 'Docker', 'JWT', 'LangChain'],
-    liveUrl: 'https://ai-journal-assistant.onrender.com',
+    liveUrl: 'https://ai-journal-assistant.vercel.app/',
     githubUrl: 'https://github.com/aryanmishra24/Ai_journal_assistant',
     featured: true,
     categories: ['ai', 'fullstack']
   },
   {
-    id: '2',
+    id: '3',
     title: 'VeriFind',
     description: 'AI legal aid app using Flutter, FastAPI, LangChain & OpenAI; deployed live, serving 1,000+ users with 95% accurate legal guidance.',
     image: '/images/projects/verifind.jpg',
@@ -25,7 +25,7 @@ export const projects: Project[] = [
   },
   
   {
-    id: '3',
+    id: '2',
     title: 'EmpowerLex',
     description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 1,000+ users across platforms.',
     image: '/images/projects/empowerlex.jpg', // Update the image path if needed
