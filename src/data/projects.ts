@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     id: '3',
     title: 'VeriFind',
-    description: 'AI legal aid app using Flutter, FastAPI, LangChain & OpenAI; deployed live, serving 1,000+ users with 95% accurate legal guidance.',
+    description: 'A real time fact checking app using Python, Streamlit, NewsAPI, Redis, and NLTK, serving over 1,000+ users across platforms.',
     image: '/images/projects/verifind.jpg',
     tags: ['Python', 'Streamlit', 'scikit-learn', 'NLTK', 'NewsAPI', 'Redis'],
     liveUrl: 'https://verifind.onrender.com',
