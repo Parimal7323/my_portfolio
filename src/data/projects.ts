@@ -3,6 +3,18 @@ import { Project } from '@/types'
 export const projects: Project[] = [
   {
     id: '1',
+    title: 'StrayLove',
+    description: 'A community-driven platform to report, track, and care for stray animals using Spring Boot, React, PostgreSQL, and AWS',
+    image: '/images/projects/straylove.jpg',
+    tags: ['Spring Boot', 'React', 'PostgreSQL', 'AWS', 'JWT', 'REST API'],
+    liveUrl: 'https://stray-love.vercel.app',
+    githubUrl: 'https://github.com/aryanmishra24/strayLove',
+    featured: true,
+    categories: ['fullstack']
+  },
+  
+  {
+    id: '2',
     title: 'AI Journaling Assistant',
     description: 'A full-stack journaling platform used by 50+ users with AI-generated summaries, personalized insights, and mood analytics.',
     image: '/images/projects/ai-journal.jpg',
@@ -13,7 +25,7 @@ export const projects: Project[] = [
     categories: ['ai', 'fullstack']
   },
   {
-    id: '2',
+    id: '3',
     title: 'EmpowerLex',
     description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 100+ users across platforms.',
     image: '/images/projects/empowerlex.jpg', // Update the image path if needed
@@ -24,7 +36,7 @@ export const projects: Project[] = [
     categories: ['ai', 'fullstack', 'mobile']
   },
   {
-    id: '3',
+    id: '4',
     title: 'VeriFind',
     description: 'A real time fact checking app using Python, Streamlit, NewsAPI, Redis, and NLTK',
     image: '/images/projects/verifind.jpg',
