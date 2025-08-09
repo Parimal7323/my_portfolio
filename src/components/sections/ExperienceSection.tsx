@@ -78,7 +78,7 @@ export default function ExperienceSection() {
         >
           {/* Work Experience */}
           <div className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text">
               Work Experience
             </h2>
 
@@ -90,7 +90,7 @@ export default function ExperienceSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-white dark:bg-slate-800 rounded-lg p-6 shadow-lg border border-slate-200 dark:border-slate-700"
+                  className="bg-white/10 dark:bg-gray-900/50 backdrop-blur-md rounded-lg p-6 shadow-lg border border-purple-500/20 card-hover"
                 >
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                     <div className="mb-4 md:mb-0">
@@ -124,7 +124,7 @@ export default function ExperienceSection() {
                     {exp.techStack.map((tech) => (
                       <span
                         key={tech}
-                        className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium"
+                        className="px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium"
                       >
                         {tech}
                       </span>
@@ -137,7 +137,7 @@ export default function ExperienceSection() {
 
           {/* Education */}
           <div className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text">
               Education
             </h2>
 
@@ -149,14 +149,14 @@ export default function ExperienceSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-white dark:bg-slate-800 rounded-lg p-6 shadow-lg border border-slate-200 dark:border-slate-700"
+                  className="bg-white/10 dark:bg-gray-900/50 backdrop-blur-md rounded-lg p-6 shadow-lg border border-purple-500/20 card-hover"
                 >
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-slate-800 dark:text-white">
                         {edu.degree}
                       </h3>
-                      <h4 className="text-lg font-semibold text-blue-600 dark:text-blue-400 mt-1">
+                      <h4 className="text-lg font-semibold text-purple-400 dark:text-purple-300 mt-1">
                         {edu.institution}
                       </h4>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mt-2 text-slate-600 dark:text-slate-300">
@@ -179,7 +179,7 @@ export default function ExperienceSection() {
 
           {/* Achievements & Certifications */}
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center gradient-text">
               Achievements & Certifications
             </h2>
 
@@ -191,7 +191,7 @@ export default function ExperienceSection() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-white dark:bg-slate-800 rounded-lg p-6 shadow-lg border border-slate-200 dark:border-slate-700 text-center"
+                  className="bg-white/10 dark:bg-gray-900/50 backdrop-blur-md rounded-lg p-6 shadow-lg border border-purple-500/20 text-center card-hover"
                 >
                   <div className="text-3xl mb-3">{achievement.icon}</div>
                   <h3 className="text-lg font-bold text-slate-800 dark:text-white mb-2">

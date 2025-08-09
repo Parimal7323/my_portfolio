@@ -18,7 +18,7 @@ export default function HeroSection() {
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ 
-            opacity: [0.2, 0.3, 0.2],
+            opacity: [0.15, 0.25, 0.15],
             scale: [1, 1.1, 1],
           }}
           transition={{ 
@@ -26,12 +26,12 @@ export default function HeroSection() {
             repeat: Infinity,
             ease: "easeInOut"
           }}
-          className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"
+          className="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-500/25 rounded-full blur-3xl"
         />
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ 
-            opacity: [0.2, 0.3, 0.2],
+            opacity: [0.15, 0.25, 0.15],
             scale: [1, 1.1, 1],
           }}
           transition={{ 
@@ -40,7 +40,7 @@ export default function HeroSection() {
             ease: "easeInOut",
             delay: 1
           }}
-          className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl"
+          className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-violet-500/25 rounded-full blur-3xl"
         />
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -54,7 +54,7 @@ export default function HeroSection() {
             ease: "easeInOut",
             delay: 2
           }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-500/15 rounded-full blur-3xl"
         />
       </div>
 
@@ -71,7 +71,7 @@ export default function HeroSection() {
             repeat: Infinity,
             ease: "easeInOut"
           }}
-          className="absolute top-1/4 right-1/4 text-blue-400/20"
+          className="absolute top-1/4 right-1/4 text-purple-400/20"
         >
           <Code className="w-12 h-12" />
         </motion.div>
@@ -87,7 +87,7 @@ export default function HeroSection() {
             ease: "easeInOut",
             delay: 1
           }}
-          className="absolute bottom-1/4 left-1/4 text-purple-400/20"
+          className="absolute bottom-1/4 left-1/4 text-violet-400/20"
         >
           <Terminal className="w-12 h-12" />
         </motion.div>
@@ -103,7 +103,7 @@ export default function HeroSection() {
             ease: "easeInOut",
             delay: 2
           }}
-          className="absolute top-1/2 right-1/3 text-pink-400/20"
+          className="absolute top-1/2 right-1/3 text-pink-400/25"
         >
           <Server className="w-12 h-12" />
         </motion.div>
@@ -145,7 +145,7 @@ export default function HeroSection() {
                   duration: 2,
                   ease: "easeInOut"
                 }}
-                className="block text-blue-400"
+                className="block gradient-text"
               >
                 I'm Parimal
               </motion.span>

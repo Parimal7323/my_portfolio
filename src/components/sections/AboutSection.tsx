@@ -14,7 +14,7 @@ export default function AboutSection() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto"
         >
-          <h2 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">About Me</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center gradient-text">About Me</h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
             I'm Parimal Priyanshu, a passionate Software Development Engineer currently working as an SDE Intern at Cimpress(Vista). 
             I specialize in full-stack development with expertise in Java, Spring Boot, React.js, and Next.js, building scalable applications that solve real-world problems.

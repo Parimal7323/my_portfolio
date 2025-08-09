@@ -41,7 +41,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold font-poppins text-blue-400 hover:text-blue-300 transition-colors">
+          <Link href="/" className="text-2xl font-bold font-poppins gradient-text hover:opacity-80 transition-opacity">
             Parimal Priyanshu
           </Link>
 
@@ -51,7 +51,7 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-slate-300 hover:text-blue-400 transition-colors duration-300"
+                className="text-slate-300 hover:text-purple-400 transition-colors duration-300"
                 onClick={() => item.href.startsWith('#') && setIsMobileMenuOpen(false)}
               >
                 {item.label}
@@ -106,7 +106,7 @@ export function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-slate-300 hover:text-blue-400 transition-colors duration-300"
+                  className="text-slate-300 hover:text-purple-400 transition-colors duration-300"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
