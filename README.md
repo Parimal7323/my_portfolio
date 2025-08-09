@@ -1,119 +1,236 @@
-# Aryan Mishra's Portfolio
+# 🌟 Parimal Priyanshu - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. This portfolio showcases my projects, skills, and blog posts in a clean and professional design.
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS to showcase my professional journey, projects, and technical skills.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- **Modern Design**: Clean and professional UI with smooth animations
-- **Responsive**: Fully responsive design that works on all devices
-- **Dark Mode**: Built-in dark mode support
-- **Blog Section**: MDX-powered blog with syntax highlighting
-- **Contact Form**: Working contact form with email integration
-- **Project Showcase**: Interactive project cards with live demos
-- **Skills Timeline**: Visual representation of skills and experience
-- **Performance Optimized**: Fast loading and smooth interactions
+- **Local Development**: http://localhost:3000
+- **GitHub Repository**: https://github.com/Parimal7323/my_portfolio
+
+## 👨‍💻 About Me
+
+I'm Parimal Priyanshu, a passionate Software Development Engineer currently working as an SDE Intern at **Cimpress(Vista)**. I specialize in full-stack development with expertise in Java, Spring Boot, React.js, and Next.js, building scalable applications that solve real-world problems.
+
+### 🎓 Education
+- **B.Tech in Computer Science and Engineering**
+- **Motilal Nehru National Institute of Technology Allahabad** (2021-2025)
+- **Location**: Prayagraj, Uttar Pradesh
+
+### 💼 Current Role
+- **SDE Intern at Cimpress(Vista)** (January 2025 - Present)
+- Modernizing legacy systems with Spring Boot & Next.js
+- Achieved 40% faster load times and 85% test coverage
+- Working with Java, Spring Boot, PostgreSQL, JavaScript, TypeScript, Next.js, React.js, Docker, AWS
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide Icons
-- **Content**: MDX
-- **Deployment**: Vercel
+### Frontend
+- **React.js** - Component-based UI development
+- **Next.js** - Full-stack React framework with SSR/SSG
+- **TypeScript** - Type-safe JavaScript development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation and motion graphics
+- **HTML/CSS** - Modern web standards
 
-## 📦 Installation
+### Backend
+- **Java** - Primary programming language
+- **Spring Boot** - Enterprise application development
+- **Node.js** - JavaScript runtime for backend
+- **Express** - Web application framework
+- **Python** - Data processing and ML
+- **RESTful APIs** - API design and development
+- **GraphQL** - Query language for APIs
 
-1. Clone the repository:
+### Database
+- **PostgreSQL** - Primary relational database
+- **MongoDB** - NoSQL document database
+- **MySQL** - Relational database management
+- **SQL** - Database query language
+
+### Tools & DevOps
+- **Git & GitHub** - Version control and collaboration
+- **Docker** - Containerization platform
+- **AWS (EC2, S3)** - Cloud computing services
+- **CI/CD** - Continuous integration and deployment
+- **Jest** - JavaScript testing framework
+- **Postman** - API testing and development
+- **VS Code** - Integrated development environment
+- **Jira** - Project management and issue tracking
+
+### AI/ML
+- **Scikit-learn** - Machine learning library
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computing
+- **Machine Learning** - Predictive modeling and analysis
+
+## 🎯 Featured Projects
+
+### 1. 🐕 StrayCam
+A full-stack web application to manage 100+ stray animal cases with advanced features.
+
+**Tech Stack**: Java, Spring Boot, React, PostgreSQL, AWS, JWT, REST API
+
+**Key Features**:
+- Geotagged image support for precise location tracking
+- Interactive map dashboards for case visualization
+- Foster/adoption forms with dynamic media upload
+- Secure JWT-based authentication with role-based access
+- Deployed on AWS with 99.9% uptime
+
+### 2. 🔒 Network Anomaly Detection
+An intelligent security system using machine learning algorithms for threat detection.
+
+**Tech Stack**: Python, Scikit-learn, Pandas, NumPy, Machine Learning, Cybersecurity
+
+**Key Achievements**:
+- **92% precision** and **87% recall** in detecting network anomalies
+- **95% threat detection** rate with only **3% false positive** rate
+- Proactive identification of deviations from normal traffic patterns
+- **60% reduction** in manual inspection efforts
+- **30% improvement** in security response time and accuracy
+
+### 3. 📝 BeBanjaara
+A real-time blog application built with the MERN stack for seamless content management.
+
+**Tech Stack**: React.js, Node.js, Express, MongoDB, JWT, REST API
+
+**Key Features**:
+- Real-time content updates and live notifications
+- Secure JWT authentication with session management
+- Advanced search, filtering, and pagination
+- Full CRUD operations with optimized performance
+- **40% reduction** in backend latency
+- **30% increase** in user engagement
+
+### 4. 💼 Portfolio Website
+This modern, responsive portfolio website showcasing my professional journey.
+
+**Tech Stack**: Next.js, TypeScript, Tailwind CSS, React, Responsive Design
+
+**Features**:
+- Server-side rendering (SSR) and static site generation (SSG)
+- Responsive design for all device sizes
+- Dark/light theme toggle
+- Contact form with email integration
+- Smooth animations and modern UI/UX
+
+## 🏆 Achievements & Certifications
+
+- **LeetCode**: Max Rating **1615**, **700+** problems solved
+- **GeeksforGeeks**: **100+** problems solved
+- **DevOps Foundations** - LinkedIn Learning (April 2025)
+- **React Essential Training** - LinkedIn Learning (March 2025)
+
+## 📊 GitHub Stats
+
+- **5+ repositories** with diverse project portfolio
+- Active contributor to open-source projects
+- Consistent coding activity and project development
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Git for version control
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/aryanmishra24/my_portfolio.git
+   git clone https://github.com/Parimal7323/my_portfolio.git
+   cd my_portfolio
    ```
 
-2. Install dependencies:
+2. **Install dependencies**
    ```bash
-   cd my_portfolio
    npm install
    ```
 
-3. Create a `.env.local` file in the root directory and add your email credentials:
-   ```
-   EMAIL_USER=your-email@gmail.com
-   EMAIL_PASS=your-app-specific-password
-   ```
-
-4. Run the development server:
+3. **Run the development server**
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
 
-## 🏗️ Project Structure
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint for code quality
+
+## 📁 Project Structure
 
 ```
 my_portfolio/
 ├── src/
-│   ├── app/              # Next.js app directory
-│   ├── components/       # React components
-│   │   ├── sections/    # Page sections
-│   │   ├── ui/         # Reusable UI components
-│   │   └── layout/     # Layout components
-│   ├── content/         # Blog content (MDX)
-│   ├── data/           # Static data
-│   ├── lib/            # Utility functions
-│   └── types/          # TypeScript types
-├── public/             # Static assets
-└── tailwind.config.js  # Tailwind configuration
+│   ├── app/                 # Next.js app directory
+│   │   ├── api/            # API routes
+│   │   ├── blog/           # Blog pages
+│   │   └── globals.css     # Global styles
+│   ├── components/         # Reusable components
+│   │   ├── forms/          # Form components
+│   │   ├── layout/         # Layout components
+│   │   ├── sections/       # Page sections
+│   │   └── ui/             # UI components
+│   ├── content/            # MDX blog content
+│   ├── data/               # Static data files
+│   ├── lib/                # Utility functions
+│   └── types/              # TypeScript definitions
+├── public/                 # Static assets
+├── tailwind.config.js     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── package.json           # Project dependencies
 ```
 
-## 🎨 Customization
+## 🎨 Features
 
-1. **Projects**: Edit `src/data/projects.ts` to update your projects
-2. **Skills**: Modify `src/data/skills.ts` to update your skills
-3. **Blog Posts**: Add new MDX files in `src/content/blog/`
-4. **Styling**: Customize colors and theme in `tailwind.config.js`
+- **⚡ Performance**: Built with Next.js for optimal performance and SEO
+- **📱 Responsive**: Mobile-first design that works on all devices
+- **🎯 Modern UI**: Clean, professional design with smooth animations
+- **🌙 Dark Mode**: Toggle between light and dark themes
+- **📧 Contact Form**: Functional contact form with email integration
+- **📖 Blog Section**: MDX-powered blog for sharing insights
+- **🔍 SEO Optimized**: Meta tags and structured data for better search visibility
+- **♿ Accessible**: Built with accessibility best practices
 
-## 📝 Blog Posts
+## 📞 Contact
 
-The blog section uses MDX for content. To add a new blog post:
+- **Email**: [parimalpriyanshu@gmail.com](mailto:parimalpriyanshu@gmail.com)
+- **Phone**: +91 8102814226
+- **Location**: Bengaluru, Karnataka - 560037, India
+- **LinkedIn**: [parimal-priyanshu01](https://www.linkedin.com/in/parimal-priyanshu01/)
+- **GitHub**: [Parimal7323](https://github.com/Parimal7323)
 
-1. Create a new `.mdx` file in `src/content/blog/`
-2. Add frontmatter with title, date, and description
-3. Write your content using MDX syntax
+## 🤝 Contributing
 
-## 📧 Contact Form
+While this is a personal portfolio, I'm open to suggestions and improvements! Feel free to:
 
-The contact form uses Nodemailer to send emails. Make sure to:
-
-1. Set up your email credentials in `.env.local`
-2. For Gmail, use an App Password instead of your regular password
-3. Test the form after deployment
-
-## 🚀 Deployment
-
-This portfolio is deployed on Vercel. To deploy your own version:
-
-1. Fork this repository
-2. Create a new project on Vercel
-3. Import your forked repository
-4. Add your environment variables
-5. Deploy!
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Commit your changes (`git commit -m 'Add some improvement'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
-
-**Aryan Mishra**
-- GitHub: [@aryanmishra24](https://github.com/aryanmishra24)
-- LinkedIn: [Aryan Mishra](https://www.linkedin.com/in/aryan--mishra)
-- Email: mishraaryan350@gmail.com
-
 ## 🙏 Acknowledgments
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Lucide Icons](https://lucide.dev/)
+- **Next.js** team for the amazing framework
+- **Tailwind CSS** for the utility-first CSS framework
+- **Framer Motion** for smooth animations
+- **Vercel** for hosting and deployment solutions
+- **Open source community** for inspiration and resources
+
+---
+
+⭐ **Star this repository** if you found it helpful!
+
+*Built with ❤️ by [Parimal Priyanshu](https://github.com/Parimal7323)*
