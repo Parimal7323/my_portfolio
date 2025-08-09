@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
 import { Github, Linkedin, Mail, Phone, Loader2 } from 'lucide-react'
-import { GITHUB_URL, LINKEDIN_URL } from '@/lib/constants'
+import { GITHUB_URL, LINKEDIN_URL, EMAIL, PHONE, LOCATION } from '@/lib/constants'
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -162,20 +162,20 @@ export default function ContactSection() {
                 <h3 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">Contact Information</h3>
                 <div className="space-y-4">
                   <motion.a
-                    href="mailto:mishraaryan350@gmail.com"
+                    href={`mailto:${EMAIL}`}
                     whileHover={{ scale: 1.02 }}
                     className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
                     <Mail className="w-5 h-5" />
-                    <span>mishraaryan350@gmail.com</span>
+                    <span>{EMAIL}</span>
                   </motion.a>
                   <motion.a
-                    href="tel:+919369266233"
+                    href={`tel:${PHONE}`}
                     whileHover={{ scale: 1.02 }}
                     className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    <span>+91 93692 66233</span>
+                    <span>{PHONE}</span>
                   </motion.a>
                 </div>
               </div>

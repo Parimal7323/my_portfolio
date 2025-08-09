@@ -4,10 +4,9 @@ import { motion } from 'framer-motion'
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, url: 'https://github.com/aryanmishra', color: 'hover:text-gray-400' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/aryanmishra', color: 'hover:text-blue-400' },
-  { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/aryanmishra', color: 'hover:text-sky-400' },
-  { name: 'Email', icon: Mail, url: 'mailto:aryan@example.com', color: 'hover:text-red-400' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/Parimal7323', color: 'hover:text-gray-400' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/parimal-priyanshu01/', color: 'hover:text-blue-400' },
+  { name: 'Email', icon: Mail, url: 'mailto:parimalpriyanshu@gmail.com', color: 'hover:text-red-400' },
 ]
 
 export function SocialLinks() {

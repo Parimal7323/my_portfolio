@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/Button'
 import { ArrowDown, Code, Terminal, Server } from 'lucide-react'
 
 const description = [
-  "A Full Stack Developer passionate about building modern web applications",
-  "AI enthusiast crafting intelligent solutions",
-  "Problem solver turning complex challenges into elegant code"
+  "SDE Intern at Cimpress(Vista) passionate about building scalable applications",
+  "Full Stack Developer with expertise in Java, Spring Boot, and Next.js",
+  "Problem solver turning complex challenges into elegant, efficient solutions"
 ]
 
 export default function HeroSection() {
@@ -147,7 +147,7 @@ export default function HeroSection() {
                 }}
                 className="block text-blue-400"
               >
-                I'm Aryan
+                I'm Parimal
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, x: 20 }}

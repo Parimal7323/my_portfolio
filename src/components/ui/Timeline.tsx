@@ -5,22 +5,34 @@ import { CheckCircle } from 'lucide-react'
 
 const timelineData = [
   {
-    title: 'Lumiq.ai Internship',
-    description: 'AI Development & Implementation',
-    date: '2024',
-    isCompleted: true
-  },
-  {
-    title: 'Competitive Programming Achievement',
-    description: 'Rank 598/38,000 participants',
-    date: '2023',
-    isCompleted: true
+    title: 'Cimpress(Vista) - SDE Intern',
+    description: 'Modernizing legacy systems with Spring Boot & Next.js, achieving 40% faster load times and 85% test coverage',
+    date: 'January 2025 - Present',
+    isCompleted: false
   },
   {
     title: 'Computer Science Student',
-    description: 'Pursuing Bachelor\'s Degree',
-    date: '2022-Present',
+    description: 'Pursuing B.Tech in CSE from MNNIT Allahabad',
+    date: '2021 - 2025',
     isCompleted: false
+  },
+  {
+    title: 'LeetCode Achievement',
+    description: 'Max Rating 1615, Solved 700+ Problems',
+    date: '2023 - Present',
+    isCompleted: true
+  },
+  {
+    title: 'DevOps Foundations Certificate',
+    description: 'LinkedIn Learning Certification',
+    date: 'April 2025',
+    isCompleted: true
+  },
+  {
+    title: 'React Essential Training',
+    description: 'LinkedIn Learning Certification',
+    date: 'March 2025',
+    isCompleted: true
   }
 ]
 

@@ -3,48 +3,48 @@ import { Project } from '@/types'
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'StrayLove',
-    description: 'A community-driven platform to report, track, and care for stray animals using Spring Boot, React, PostgreSQL, and AWS',
-    image: '/images/projects/straylove.jpg',
-    tags: ['Spring Boot', 'React', 'PostgreSQL', 'AWS', 'JWT', 'REST API'],
-    liveUrl: 'https://stray-love.vercel.app',
-    githubUrl: 'https://github.com/aryanmishra24/strayLove',
+    title: 'StrayCam',
+    description: 'A full-stack web app to manage 100+ stray animal cases with geotagged image support, interactive map dashboards, and foster/adoption forms with JWT authentication.',
+    image: '/images/projects/straycam.jpg',
+    tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'AWS', 'JWT', 'REST API'],
+    liveUrl: 'https://straycam.vercel.app',
+    githubUrl: 'https://github.com/Parimal7323/straycam',
     featured: true,
     categories: ['fullstack']
   },
   
   {
     id: '2',
-    title: 'AI Journaling Assistant',
-    description: 'A full-stack journaling platform used by 50+ users with AI-generated summaries, personalized insights, and mood analytics.',
-    image: '/images/projects/ai-journal.jpg',
-    tags: ['FastAPI', 'React', 'PostgreSQL', 'Gemini API', 'Docker', 'JWT', 'LangChain'],
-    liveUrl: 'https://ai-journal-assistant.vercel.app/',
-    githubUrl: 'https://github.com/aryanmishra24/Ai_journal_assistant',
+    title: 'Network Anomaly Detection',
+    description: 'A machine learning-based security system using Isolation Forest, Random Forest, and DBSCAN achieving 92% precision and 87% recall in detecting network anomalies.',
+    image: '/images/projects/network-anomaly.jpg',
+    tags: ['Python', 'Scikit-learn', 'Pandas', 'Numpy', 'Machine Learning', 'Cybersecurity'],
+    liveUrl: 'https://network-anomaly-detection.vercel.app',
+    githubUrl: 'https://github.com/Parimal7323/network-anomaly-detection',
     featured: true,
-    categories: ['ai', 'fullstack']
+    categories: ['ai', 'security']
   },
   {
     id: '3',
-    title: 'EmpowerLex',
-    description: 'A legal aid app built with Flutter and FastAPI, using gemini + LangChain to deliver real-time legal help and generate documents serveing over 100+ users across platforms.',
-    image: '/images/projects/empowerlex.jpg', // Update the image path if needed
-    tags: ['Flutter', 'FastAPI', 'LangChain', 'gemini-api', 'Render'],
-    liveUrl: 'https://empowerlex-web.vercel.app/', // Update if you have a custom domain
-    githubUrl: 'https://github.com/aryanmishra24/EmpowerLex',
+    title: 'BeBanjaara',
+    description: 'A real-time blog application using MERN stack with secure JWT authentication, live content updates, search, filtering, and pagination features.',
+    image: '/images/projects/bebanjaara.jpg',
+    tags: ['React.js', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'],
+    liveUrl: 'https://bebanjaara.vercel.app',
+    githubUrl: 'https://github.com/Parimal7323/bebanjaara',
     featured: true,
-    categories: ['ai', 'fullstack', 'mobile']
+    categories: ['fullstack', 'web']
   },
   {
     id: '4',
-    title: 'VeriFind',
-    description: 'A real time fact checking app using Python, Streamlit, NewsAPI, Redis, and NLTK',
-    image: '/images/projects/verifind.jpg',
-    tags: ['Python', 'Streamlit', 'scikit-learn', 'NLTK', 'NewsAPI', 'Redis'],
-    liveUrl: 'https://verifind.onrender.com',
-    githubUrl: 'https://github.com/aryanmishra24/VeriFind',
-    featured: true,
-    categories: ['ai']
+    title: 'Portfolio Website',
+    description: 'A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS showcasing projects, skills, and professional experience.',
+    image: '/images/projects/portfolio.jpg',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Responsive Design'],
+    liveUrl: 'https://parimalpriyanshu.vercel.app',
+    githubUrl: 'https://github.com/Parimal7323/portfolio',
+    featured: false,
+    categories: ['frontend', 'web']
   },
   
   

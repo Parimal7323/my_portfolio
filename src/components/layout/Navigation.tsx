@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/Button'
 const navItems = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
+  { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#blog', label: 'Blog' },
   { href: '#contact', label: 'Contact' },
@@ -41,7 +42,7 @@ export function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold font-poppins text-blue-400 hover:text-blue-300 transition-colors">
-            Aryan Mishra
+            Parimal Priyanshu
           </Link>
 
           {/* Desktop Navigation */}

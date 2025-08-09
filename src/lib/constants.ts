@@ -1,2 +1,5 @@
-export const GITHUB_URL = 'https://github.com/aryanmishra24'
-export const LINKEDIN_URL = 'https://www.linkedin.com/in/aryan--mishra' 
+export const GITHUB_URL = 'https://github.com/Parimal7323'
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/parimal-priyanshu01/'
+export const EMAIL = 'parimalpriyanshu@gmail.com'
+export const PHONE = '+91 8102814226'
+export const LOCATION = 'Bengaluru, Karnataka - 560037, India' 
