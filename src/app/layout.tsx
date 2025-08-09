@@ -18,13 +18,13 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: "Aryan Mishra - Full-Stack Developer",
-  description: "Full-stack Developer • AI Builder • Open Source Enthusiast",
-  keywords: ["Aryan Mishra", "Full-Stack Developer", "AI", "React", "Next.js"],
-  authors: [{ name: "Aryan Mishra" }],
+  title: "Parimal Priyanshu - Full-Stack Developer",
+  description: "Full-stack Developer • Java | Spring Boot | React | Next.js",
+  keywords: ["Parimal Priyanshu", "Full-Stack Developer", "Java", "Spring Boot", "React", "Next.js"],
+  authors: [{ name: "Parimal Priyanshu" }],
   openGraph: {
-    title: "Aryan Mishra - Full-Stack Developer",
-    description: "Full-stack Developer • AI Builder • Open Source Enthusiast",
+    title: "Parimal Priyanshu - Full-Stack Developer",
+    description: "Full-stack Developer • Java | Spring Boot | React | Next.js",
     type: "website",
     locale: "en_US",
   },

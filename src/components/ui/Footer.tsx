@@ -11,7 +11,7 @@ export default function Footer() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          © {new Date().getFullYear()} Aryan Mishra. All rights reserved.
+          © {new Date().getFullYear()} Parimal Priyanshu. All rights reserved.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

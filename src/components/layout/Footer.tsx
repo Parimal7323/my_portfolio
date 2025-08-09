@@ -14,7 +14,7 @@ export function Footer() {
           className="text-center space-y-4"
         >
           <p className="text-slate-400 flex items-center justify-center gap-2">
-            © 2025 Aryan Mishra. Built with{' '}
+            © 2025 Parimal Priyanshu. Built with{' '}
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
             using Next.js and Tailwind CSS.
           </p>
