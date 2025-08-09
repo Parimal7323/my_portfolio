@@ -42,7 +42,7 @@ export const projects: Project[] = [
     image: '/images/projects/portfolio.jpg',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Responsive Design'],
     liveUrl: 'https://parimalpriyanshu.vercel.app',
-    githubUrl: 'https://github.com/Parimal7323/portfolio',
+    githubUrl: 'https://github.com/Parimal7323/my_portfolio',
     featured: false,
     categories: ['frontend', 'web']
   },
